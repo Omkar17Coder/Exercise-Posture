@@ -29,7 +29,7 @@ const Postures = {
      '3': "Lunges",
     '2': "Leg Raiser",
     '4': "Push Ups",
-    '5': "Hand Curl",
+    '5': "Bending Toe Touch",
 
 };
 let val=10  ;
