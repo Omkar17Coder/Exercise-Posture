@@ -10,9 +10,24 @@
 
 
 
-    <script src="TwoPosture.js"></script>
+    <script src="Custome.js"></script>
 </head>
 <body>
+<label for="postureSelect">Select Posture:</label>
+<select id="postureSelect" onchange="changePostureModel()">
+    <option value="0">Select One Posture</option>
+    <option value="1">Squats</option>
+    <option value="2">Leg-Raise</option>
+    <option value="3">Forward Lunge</option>
+    <option value="4">Push-Ups</option>
+    <option value="5">Knee Touch</option>
+
+</select>
+
+<button onclick="Start()">Start</button>
+<button onclick="Stop()">End Posture</button>
+
+
 <h1>This is Posture Detection</h1>
 <h1>Accept the camera permission there above  and dwell into fitness</h1>
 <h1 id="Heelo">The Posture is :</h1>
