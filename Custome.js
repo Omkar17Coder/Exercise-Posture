@@ -2,7 +2,7 @@
 
 // we have four exercises...
 
-// Squarts, Lunges, Leg Raise , Push Ups, Hand Curl
+// Squarts, Lunges, Leg Raise , Push Ups, Bending Toe Touch
 
 // This is only  Counter Based.
 
