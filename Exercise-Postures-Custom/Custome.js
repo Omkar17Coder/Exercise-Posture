@@ -97,9 +97,9 @@ function  Stop(){
         const folderName1 = 1;
         // This is Squart Position
         const modelInfo1 = {
-            model: `Models/model.json`,
-            metadata: `Models/model_meta.json`,
-            weights: `Models/model.weights.bin`,
+            model: `Exercise-Postures-Custom/Models/model.json`,
+            metadata: `Exercise-Postures-Custom/Models/model_meta.json`,
+            weights: `Exercise-Postures-Custom/Models/model.weights.bin`,
         };
         model1.load(modelInfo1, modelLoaded);
 
@@ -107,36 +107,36 @@ function  Stop(){
         //This is The Leg Raise Posture,
         const modelInfo2 = { // this loads the LegRaise Posture.
 
-            model: `Models/legraise.json`,
-            metadata: `Models/legraise_meta.json`,
-            weights: `Models/legraise.weights.bin`,
+            model: `Exercise-Postures-Custom/Models/legraise.json`,
+            metadata: `Exercise-Postures-Custom/Models/legraise_meta.json`,
+            weights: `Exercise-Postures-Custom/Models/legraise.weights.bin`,
 
         };
         model2.load(modelInfo2, modelLoaded);
 
      // This is the Lunges Exercise.
         const modelInfo3 = {  // This is Lunges.
-            model: `Models/model_lunges.json`,
-            metadata: `Models/model_lunges_meta (6).json`,
-            weights: `Models/model_lunges.weights (14).bin`,
+            model: `Exercise-Postures-Custom/Models/model_lunges.json`,
+            metadata: `Exercise-Postures-Custom/Models/model_lunges_meta (6).json`,
+            weights: `Exercise-Postures-Custom/Models/model_lunges.weights (14).bin`,
         };
         model3.load(modelInfo3, modelLoaded);
 
 
         // This is Push-Ups Exercise
         const  modelInfo4={
-            model: `Models/pushups.json`,
-            metadata: `Models/pushups_meta.json`,
-            weights: `Models/pushups.weights.bin`,
+            model: `Exercise-Postures-Custom/Models/pushups.json`,
+            metadata: `Exercise-Postures-Custom/Models/pushups_meta.json`,
+            weights: `Exercise-Postures-Custom/Models/pushups.weights.bin`,
         };
         model4.load(modelInfo4,modelLoaded);
 
         // This is Knee Touch Detection.
 
         const modelInfo5={
-            model: `Models/kneetouch.json`,
-            metadata: `Models/kneetouch_meta.json`,
-            weights: `Models/kneetouch.weights.bin`,
+            model: `Exercise-Postures-Custom/Models/kneetouch.json`,
+            metadata: `Exercise-Postures-Custom/Models/kneetouch_meta.json`,
+            weights: `Exercise-Postures-Custom/Models/kneetouch.weights.bin`,
         };
         model5.load(modelInfo5,modelLoaded);
 

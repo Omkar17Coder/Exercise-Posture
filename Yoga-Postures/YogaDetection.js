@@ -41,7 +41,7 @@ let sound;
 
 let flag = true;
 function preload(){
-    sound=createAudio('Chill - Cool Down Harmony.mp3');
+    sound=createAudio('Yoga-Postures/Chill - Cool Down Harmony.mp3');
 }
 
 
@@ -75,9 +75,9 @@ function setup() {
 
 
     const modelInfo1 = {
-        model: `Models/model (9).json`,
-        metadata: `Models/model_meta (8).json`,
-        weights: `Models/model.weights (16).bin`,
+        model: `Yoga-Postures/Models/model (9).json`,
+        metadata: `Yoga-Postures/Models/model_meta (8).json`,
+        weights: `Yoga-Postures/Models/model.weights (16).bin`,
     };
     model1.load(modelInfo1, modelLoaded); // this loads the squarts posture.
 
